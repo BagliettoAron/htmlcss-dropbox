@@ -68,7 +68,9 @@ html{
 
 /* MAIN */
 
-/* title */
+/* JUMBOTRON */
+
+/* jumbotron title */
 main .title{
     width: 100%;
     background-color: #B4D0E7;
@@ -76,7 +78,7 @@ main .title{
     height: 250px;
 }
 
-/* under title section */
+/* jumbotron container */
 .jumbotron-info{
     width: 100%;
     /* TEST */
@@ -84,21 +86,75 @@ main .title{
     background-color: aliceblue;
 }
 
-/* under title left */
+/* jumbotron col left */
 .jumbo-left-col{
     float: left;
-    width: 35%;
+    width: 40%;
     /* TEST */
     background-color: darkolivegreen;
     height: 100%;
 }
 
-/* under title right */
+/* jumbotron col right */
 .jumbo-right-col{
     float: left;
-    width: 65%;
+    width: 60%;
     /* TEST */
     background-color: dimgray;
     height: 100%;
 }
+
+/* CHOOSE SUBSCRIPTION SECTION */
+
+/* title */
+.business-title{
+    width: 100%;
+    /* TEST */
+    background-color: azure;
+    height: 150px;
+}
+
+/* choose plan container */
+.plan-container{
+    width: 85%;
+    margin: 0 auto;
+    /* TEST */
+    background-color: bisque;
+    height: 800px;
+}
+
+/* column common */
+.plan-option{
+    width: calc(100% / 3 - 30px);
+    border: 1px solid gray;
+    /* TEST */
+    height: 800px;
+}
+
+.top-symbol{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    /* TEST */
+    height: 3em;
+
+}
+
+/* column */
+.col-1{
+    float: left;
+
+}
+
+.col-2{
+    float: left;
+    margin: 0 45px;
+
+}
+
+.col-3{
+    float: left;
+
+}
+
+
 
