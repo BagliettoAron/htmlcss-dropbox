@@ -1,3 +1,4 @@
+
 /* RESET */
 
 *{
@@ -16,10 +17,19 @@ html{
 }
 
 /* COMMON */
+
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
+}
+
+.section-container{
+    width: 70%;
+    margin: 7em auto;
+    /* TEST */
+    background-color: aqua;
+    height: 1100px;
 }
 
 /* HEADER */
@@ -38,7 +48,6 @@ html{
 }
 
 /* header left section */
-
 .header-container .header-left{
     float: left;
     width: calc(100% / 3);
@@ -49,7 +58,6 @@ html{
 }
 
 /* header right section */
-
 .header-container .header-right{
     float: right;
     width: calc(100% / 3);
@@ -61,4 +69,36 @@ html{
 /* MAIN */
 
 /* title */
+main .title{
+    width: 100%;
+    background-color: #B4D0E7;
+    /* TEST */
+    height: 250px;
+}
+
+/* under title section */
+.jumbotron-info{
+    width: 100%;
+    /* TEST */
+    height: 150px;
+    background-color: aliceblue;
+}
+
+/* under title left */
+.jumbo-left-col{
+    float: left;
+    width: 35%;
+    /* TEST */
+    background-color: darkolivegreen;
+    height: 100%;
+}
+
+/* under title right */
+.jumbo-right-col{
+    float: left;
+    width: 65%;
+    /* TEST */
+    background-color: dimgray;
+    height: 100%;
+}
 
