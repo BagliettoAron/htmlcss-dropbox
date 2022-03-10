@@ -363,3 +363,21 @@ main .title{
     background-color: burlywood;
     height: 400px;
 }
+
+/* F.A.Q. & FOOTER */
+
+/* faq */
+.faq{
+    width: 100%;
+    /* TEST */
+    height: 600px;
+    background-color: cadetblue;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    /* TEST */
+    height: 300px;
+    background-color: cyan;
+}
