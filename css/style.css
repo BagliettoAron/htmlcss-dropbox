@@ -29,7 +29,15 @@ html{
     margin: 7em auto;
     /* TEST */
     background-color: aqua;
-    height: 1200px;
+    height: 1500px;
+}
+
+.section2-container{
+    width: 85%;
+    margin: 0 auto;
+    /* TEST */
+    background-color: bisque;
+    height: 800px;
 }
 
 /* HEADER */
@@ -115,13 +123,6 @@ main .title{
 }
 
 /* choose plan container */
-.plan-container{
-    width: 85%;
-    margin: 0 auto;
-    /* TEST */
-    background-color: bisque;
-    height: 800px;
-}
 
 /* column common */
 .plan-option{
@@ -161,9 +162,75 @@ main .title{
     /* TEST */
     height: 170px;
     background-color: bisque;
-
-
 }
+
+/* SECTION CONTACT & ADVANTAGES DROPBOX BUSINESS  */
+
+/* partner Dropbox */
+.partner-dropbox{
+    width: 50%;
+    float: left;
+    /* TEST */
+    height: 500px;
+}
+
+.partner-dropbox.col-left{
+    /* TEST */
+    background-color: coral;
+}
+
+.partner-dropbox.col-right{
+    /* TEST */
+    background-color: darkgoldenrod;
+}
+
+/* Dropbox Business title */
+.business-title{
+    width: 100%;
+    /* TEST */
+    background-color: cornsilk;
+    height: 200px;
+}
+
+/* advantages business sectios */
+.advantage{
+    width: calc(100% / 3);
+    float: left;
+    /* TEST */
+    height: 400PX;
+}
+
+/* adv col 1 */
+.adv-col-1{
+    background-color: rgb(38, 50, 59);
+}
+
+/* adv col 2 */
+.adv-col-2{
+    background-color: rgb(98, 34, 100);
+}
+
+/* col 3 */
+.adv-col-3{
+    background-color: rgb(100, 129, 83);
+}
+
+/* col 4 */
+.adv-col-4{
+    background-color: rgb(197, 186, 34);
+}
+
+/* col 5 */
+.adv-col-5{
+    background-color: rgb(168, 83, 83);
+}
+
+/* col 6 */
+.adv-col-6{
+    background-color: rgb(18, 229, 236);
+}
+
+
 
 
 
