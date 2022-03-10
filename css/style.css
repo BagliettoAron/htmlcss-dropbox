@@ -210,27 +210,156 @@ main .title{
     background-color: rgb(98, 34, 100);
 }
 
-/* col 3 */
+/* adv col 3 */
 .adv-col-3{
     background-color: rgb(100, 129, 83);
 }
 
-/* col 4 */
+/* adv col 4 */
 .adv-col-4{
     background-color: rgb(197, 186, 34);
 }
 
-/* col 5 */
+/* adv col 5 */
 .adv-col-5{
     background-color: rgb(168, 83, 83);
 }
 
-/* col 6 */
+/* adv col 6 */
 .adv-col-6{
     background-color: rgb(18, 229, 236);
 }
 
+/* ADVERTISING, AFFILIATION & CTA */
+
+/* advertising */
+.advertising{
+    width: 100%;
+    /* TEST */
+    height: 120px;
+    background-color: brown;
+}
+
+/* affilliations */
+.affiliations-content{
+    width: 100%;
+    height: 1000px;
+    background-color: aqua;
+}
+
+/* affiliations common */
+.square{
+    width: 25%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square-small{
+    width:calc(100% / 2)
+}
+
+.square-small:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
 
 
 
+/* big left square */
+.left-sq{
+    background-color: blueviolet;
+    float: left;
+}
 
+/* center affiliations text */
+.affiliations-txt{
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+
+
+
+/* big right square */
+.right-sq{
+  background-color: bisque;
+  float: right;
+
+}
+
+/* small square */
+/* small square left */
+.square-small{
+    float: left;
+}
+
+.sq-1{
+    /* TEST */
+    background-color: aquamarine;
+}
+
+.sq-2{
+    /* TEST */
+    background-color: rgb(54, 71, 66);
+}
+
+.sq-3{
+    /* TEST */
+    background-color: rgb(66, 21, 87);
+}
+
+.sq-4{
+    /* TEST */
+    background-color: rgb(164, 189, 55);
+}
+
+/* small square right */
+.sq-5{
+    /* TEST */
+    background-color: rgb(118, 55, 143);
+}
+
+.sq-6{
+    /* TEST */
+    background-color: rgb(87, 92, 90);
+}
+
+.sq-7{
+    /* TEST */
+    background-color: rgb(176, 116, 204);
+}
+
+.sq-8{
+    /* TEST */
+    background-color: rgb(60, 65, 38);
+}
+
+/* cta */
+.cta{
+    width: 100%;
+    /* TEST */
+    
+}
+
+/* text-cta */
+.cta-text{
+    float: left;
+    width: 60%;
+    /* TEST */
+    background-color: blue;
+    height: 400px;
+}
+
+/* button cta */
+.button-cta{
+    float: right;
+    width: 40%;
+    /* TEST */
+    background-color: burlywood;
+    height: 400px;
+}
