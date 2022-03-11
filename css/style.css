@@ -44,8 +44,8 @@ html{
     width: 85%;
     margin: 0 auto;
     /* TEST */
-    background-color: bisque;
-    height: 800px;
+    background-color: red;
+    /* height: 800px; */
 }
 
 .jumbo-container{
@@ -166,13 +166,34 @@ main .title{
 
 /* CHOOSE SUBSCRIPTION SECTION */
 
-/* title */
-.business-title{
+/* title & radio*/
+.dropbox-plan-title{
+    line-height:2em ;
     width: 100%;
+    font-size: 1.5em;
     /* TEST */
     background-color: azure;
-    height: 150px;
 }
+
+.selection-choice{
+    display: inline-block;
+    margin: 3em 2em 3em 0;
+}
+
+.radio-box{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 1px solid grey;
+    vertical-align: middle;
+}
+
+.rbox-blue{
+    border: 3.5px solid blue;
+    margin-right: 0.1em;
+}
+
 
 /* choose plan container */
 
