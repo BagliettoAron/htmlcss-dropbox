@@ -48,6 +48,20 @@ html{
     height: 800px;
 }
 
+.jumbo-container{
+    width: 90%;
+    margin: 0 auto;
+    /* TEST */
+    border: 3px solid black;
+    padding-top: 80px;
+}
+
+.button-blue{
+    padding: .2em 1em;
+    background-color: #0061FF;
+    color: white;
+}
+
 /* HEADER */
 /* header common */
 
@@ -95,11 +109,6 @@ html{
     line-height: 80px;
 }
 
-.button-right{
-    padding: .2em 1em;
-    background-color: #0061FF;
-    color: white;
-}
 
 /* MAIN */
 
@@ -109,8 +118,8 @@ html{
 main .title{
     width: 100%;
     background-color: #B4D0E7;
-    /* TEST */
-    height: 250px;
+    font-size: 2.5em;
+    padding: 1em 0 1em;
 }
 
 /* jumbotron container */
@@ -127,8 +136,28 @@ main .title{
     width: 40%;
     /* TEST */
     background-color: darkolivegreen;
-    height: 100%;
+    
 }
+
+.trial-btn{
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.cancel-btn>a{
+    color: black;
+}
+
+.arrow-link{
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+
+.arrow-link>a{
+    color: black;
+}
+
+
 
 /* jumbotron col right */
 .jumbo-right-col{
