@@ -51,8 +51,6 @@ html{
 .jumbo-container{
     width: 90%;
     margin: 0 auto;
-    /* TEST */
-    border: 3px solid black;
     padding-top: 80px;
 }
 
@@ -90,7 +88,7 @@ html{
     font-weight: 500;
 }
 
-/* left section */
+/* header left section */
 .left-section{
     float: left;
     padding-left: 2%;
@@ -102,7 +100,7 @@ html{
 }
 
 
-/* right section */
+/* header right section */
 .right-section{
     float: right;
     padding-right: 2%;
@@ -126,17 +124,14 @@ main .title{
 .jumbotron-info{
     width: 100%;
     /* TEST */
-    height: 150px;
-    background-color: aliceblue;
+    /* height: 150px; */
+    background-color: #B4D0E7;
 }
 
 /* jumbotron col left */
 .jumbo-left-col{
     float: left;
     width: 40%;
-    /* TEST */
-    background-color: darkolivegreen;
-    
 }
 
 .trial-btn{
@@ -157,16 +152,17 @@ main .title{
     color: black;
 }
 
-
-
 /* jumbotron col right */
 .jumbo-right-col{
     float: left;
     width: 60%;
-    /* TEST */
-    background-color: dimgray;
-    height: 100%;
 }
+
+.jumbo-right-col>img{
+    margin-bottom: -5em;
+}
+
+
 
 /* CHOOSE SUBSCRIPTION SECTION */
 
