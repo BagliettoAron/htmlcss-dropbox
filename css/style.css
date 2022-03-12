@@ -177,7 +177,7 @@ main .title{
 
 .selection-choice{
     display: inline-block;
-    margin: 3em 2em 3em 0;
+    margin: 3em 2em 2em 0;
 }
 
 .radio-box{
@@ -203,15 +203,37 @@ main .title{
     border: 1px solid gray;
     /* TEST */
     height: 800px;
+    line-height: 4em;
 }
+
+.column-txt{
+    padding: 0 1.5em;
+}
+
+.big-margin{
+    margin-top: 2em;
+}
+
+.medium-margin{
+margin-top: .5em;
+}
+
+
+
 
 .top-symbol{
     width: 100%;
     border-bottom: 1px solid gray;
     /* TEST */
     height: 3em;
-
 }
+
+.top-symbol{
+    text-align: center;
+    line-height: 3em;
+}
+
+
 
 /* column */
 .col-1{
