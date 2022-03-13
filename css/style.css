@@ -323,8 +323,16 @@ font-size: .9em;
 
 /* partner Dropbox */
 .partner-dropbox{
-    width: 50%;
     float: left;
+}
+
+.partner-dropbox.col-left{
+    width: 60%;
+    height: 100%;
+}
+
+.partner-dropbox.col-right{
+    width: 40%;
 }
 
 .partner-dropbox.col-right{
@@ -333,7 +341,7 @@ font-size: .9em;
 }
 
 .partner-dropbox.col-right>div{
-    margin: 2em 0 3em;
+    margin: 0 0 3em;
 }
 
 .button-white{
@@ -373,44 +381,23 @@ font-weight: 550;
     color: black;
     text-decoration: underline;
     }
-/* adv col 1 */
-.adv-col-1{
-    background-color: rgb(38, 50, 59);
-}
-
-/* adv col 2 */
-.adv-col-2{
-    background-color: rgb(98, 34, 100);
-}
-
-/* adv col 3 */
-.adv-col-3{
-    background-color: rgb(100, 129, 83);
-}
-
-/* adv col 4 */
-.adv-col-4{
-    background-color: rgb(197, 186, 34);
-}
-
-/* adv col 5 */
-.adv-col-5{
-    background-color: rgb(168, 83, 83);
-}
-
-/* adv col 6 */
-.adv-col-6{
-    background-color: rgb(18, 229, 236);
-}
 
 /* ADVERTISING, AFFILIATION & CTA */
 
 /* advertising */
 .advertising{
     width: 100%;
-    /* TEST */
-    height: 120px;
-    background-color: brown;
+}
+
+.advertising-title{
+    font-size: 2.5em;
+    margin-bottom: 1em;  
+}
+
+.advertising .section-container a{
+    font-weight: 650;
+    color: #498EFF;
+    text-decoration: underline;
 }
 
 /* affilliations */
@@ -419,6 +406,12 @@ font-weight: 550;
     height: 1000px;
     background-color: aqua;
 }
+
+
+
+
+
+
 
 /* affiliations common */
 .square{
@@ -443,6 +436,10 @@ font-weight: 550;
 
 
 
+
+
+
+
 /* big left square */
 .left-sq{
     background-color: blueviolet;
@@ -450,12 +447,36 @@ font-weight: 550;
 }
 
 /* center affiliations text */
-.affiliations-txt{
+.affiliations-block{
     float: left;
     width: 50%;
     background-color: red;
 }
 
+.affiliation-txt{
+    box-sizing: content-box;
+    padding: 2.5em;
+    font-weight: 550;
+    overflow: auto;
+    /* TEST */
+    height: 50px;
+}
+
+.affiliation-logo{
+    width: 25%;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+.logo-rule{
+    width: 3.5em;
+    padding-bottom: 3em;
+}
+
+.affiliation-content,
+.affiliation-relator{
+    margin-bottom: 3em;
+}
 
 
 /* big right square */
@@ -467,74 +488,83 @@ font-weight: 550;
 
 /* small square */
 /* small square left */
-.square-small{
+.square-small::after{  
     float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    padding: 2.5em;
+    
 }
 
 .sq-1{
-    /* TEST */
-    background-color: aquamarine;
+    /* background-image: url(../img/designit.svg); */
+    background-color: aliceblue;
+    max-height: 100%;
 }
 
 .sq-2{
-    /* TEST */
-    background-color: rgb(54, 71, 66);
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: bisque;
 }
 
 .sq-3{
-    /* TEST */
-    background-color: rgb(66, 21, 87);
+    background-image: url(../img/university_of_florida.svg);
 }
 
 .sq-4{
-    /* TEST */
-    background-color: rgb(164, 189, 55);
+    background-image: url(../img/topps.svg);
 }
 
 /* small square right */
 .sq-5{
-    /* TEST */
-    background-color: rgb(118, 55, 143);
-}
+    background-image: url(../img/world_bicycle_relief.svg);
+} 
 
 .sq-6{
-    /* TEST */
-    background-color: rgb(87, 92, 90);
+    background-image: url(../img/hearst_corp.svg);
 }
 
 .sq-7{
-    /* TEST */
-    background-color: rgb(176, 116, 204);
+    background-image: url(../img/lonely_planet.svg);
 }
 
 .sq-8{
-    /* TEST */
-    background-color: rgb(60, 65, 38);
-}
+    background-image: url(../img/clear_channel.svg);
+} 
 
 /* cta */
 .cta{
     width: 100%;
-    /* TEST */
-    
+    padding: 10em;
+    margin-bottom: 10em;
+}
+.cta-section{
+    position: relative;
 }
 
+
+
 /* text-cta */
-.cta-text{
+.cta-txt{
+    padding-right: 10em;
+    font-size: 2em;
+    color: #630C2F;
     float: left;
-    width: 60%;
-    /* TEST */
-    background-color: blue;
-    height: 400px;
 }
 
 /* button cta */
 .button-cta{
-    float: right;
-    width: 40%;
-    /* TEST */
-    background-color: burlywood;
-    height: 400px;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    padding: .4em 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+
 }
 
 /* F.A.Q. & FOOTER */
