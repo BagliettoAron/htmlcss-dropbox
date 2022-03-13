@@ -202,6 +202,22 @@ main .title{
 /* choose plan container */
 
 /* column common */
+.col-1,
+.col-2,
+.col-3{
+    float: left;
+}
+
+.col-2{
+    margin: 0 45px;
+}
+
+.top-symbol{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    line-height: 3em;
+}
 .plan-option{
     width: calc(100% / 3 - 30px);
     border: 1px solid gray;
@@ -255,10 +271,6 @@ margin-top: 1.5em;
     margin-top: 5em;
 }
 
-/* .plan-advantages ul li{
-    margin-bottom: .2em;
-} */
-
 .plan-advantages ul li:first-child{
     margin-top: 1em;
 }
@@ -283,57 +295,29 @@ margin-top: 1.5em;
     bottom: 1.3em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.top-symbol{
-    width: 100%;
-    border-bottom: 1px solid gray;
-    /* TEST */
-    height: 3em;
+/* bottom column */
+.column-txt2{
+    padding: 0 1.5em;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
 }
 
-.top-symbol{
-    text-align: center;
-    line-height: 3em;
-}
-
-
-
-/* column */
-.col-1{
-    float: left;
-
-}
-
-.col-2{
-    float: left;
-    margin: 0 45px;
-}
-
-.col-3{
-    float: left;
+.txt-strong2{
+font-weight: 650;
+font-size: .9em;
 }
 
 .enterprise-plan{
     border: 1px solid gray;
     margin: 50px 0 50px;
     width: 100%;
-    /* TEST */
-    height: 170px;
-    background-color: bisque;
+}
+
+.btn-contact-seller{
+    position: absolute;
+    top: 0;
+    right: 2em;
 }
 
 /* SECTION CONTACT & ADVANTAGES DROPBOX BUSINESS  */
