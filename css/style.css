@@ -43,9 +43,6 @@ html{
 .section2-container{
     width: 85%;
     margin: 0 auto;
-    /* TEST */
-    background-color: red;
-    /* height: 800px; */
 }
 
 .jumbo-container{
@@ -58,6 +55,9 @@ html{
     padding: .2em 1em;
     background-color: #0061FF;
     color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 /* HEADER */
@@ -69,6 +69,7 @@ html{
     /* TEST */
     background-color: white;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-menu{
@@ -107,6 +108,10 @@ html{
     line-height: 80px;
 }
 
+.btn-header{
+    display: inline;
+}
+
 
 /* MAIN */
 
@@ -135,7 +140,6 @@ main .title{
 }
 
 .trial-btn{
-    display: inline-block;
     margin: 2em 0;
 }
 
@@ -201,9 +205,8 @@ main .title{
 .plan-option{
     width: calc(100% / 3 - 30px);
     border: 1px solid gray;
-    /* TEST */
-    height: 800px;
-    line-height: 4em;
+    max-height: 1150px;
+    height: 1050px;
 }
 
 .column-txt{
@@ -215,8 +218,82 @@ main .title{
 }
 
 .medium-margin{
-margin-top: .5em;
+margin-top: 1.5em;
 }
+
+.small-margin{
+    margin-top: .3em;
+}
+
+.txt-strong{
+    font-weight: 650;
+}
+
+.txt-gray{
+    color: gray;
+    font-size: .8em;
+}
+
+.txt-aside-layout{
+    position: relative;
+    left:1.3em;
+    bottom:1.4em
+}
+
+.buy-now>a{
+    color: #498EFF;
+    text-decoration: underline;
+}
+
+.buy-now>span{
+    padding-bottom: 2em;
+    border-bottom: 1px solid gray;
+    width: 3em;
+}
+
+.plan-advantages{
+    margin-top: 5em;
+}
+
+/* .plan-advantages ul li{
+    margin-bottom: .2em;
+} */
+
+.plan-advantages ul li:first-child{
+    margin-top: 1em;
+}
+.plan-advantages ul li{
+    list-style:none;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.li-check{
+    color: #498EFF;
+    font-weight: 400;
+}
+
+.plan-advantages ul li>span{
+    display: block;
+}
+
+.txt-aside-layout2{
+    position: relative;
+    left: 1em;
+    bottom: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
