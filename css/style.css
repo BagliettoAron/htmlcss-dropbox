@@ -37,7 +37,6 @@ html{
     margin: 7em auto;
     /* TEST */
     background-color: aqua;
-    height: 1500px;
 }
 
 .section2-container{
@@ -326,36 +325,54 @@ font-size: .9em;
 .partner-dropbox{
     width: 50%;
     float: left;
-    /* TEST */
-    height: 500px;
-}
-
-.partner-dropbox.col-left{
-    /* TEST */
-    background-color: coral;
 }
 
 .partner-dropbox.col-right{
-    /* TEST */
-    background-color: darkgoldenrod;
+    padding: 2em 3em;
+    font-weight: 550;
+}
+
+.partner-dropbox.col-right>div{
+    margin: 2em 0 3em;
+}
+
+.button-white{
+    padding: .4em 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid black;
 }
 
 /* Dropbox Business title */
 .business-title{
     width: 100%;
-    /* TEST */
-    background-color: cornsilk;
-    height: 200px;
+    font-size: 1.5em;
+    padding: 3em 0 2em;
 }
 
 /* advantages business sectios */
 .advantage{
     width: calc(100% / 3);
     float: left;
-    /* TEST */
-    height: 400PX;
+    padding-left: 3em;
+    padding-bottom: 3em;
 }
 
+/* col common */
+.adv-col-title{
+    padding: 1em 0 1em;
+    font-size: 1.5em;
+}
+
+.adv-col-txt{
+font-weight: 550;
+}
+
+.adv-col-txt a{
+    color: black;
+    text-decoration: underline;
+    }
 /* adv col 1 */
 .adv-col-1{
     background-color: rgb(38, 50, 59);
