@@ -74,13 +74,13 @@ html{
 .nav-menu{
     display: inline-block;
     vertical-align: middle;
-    margin: 0 .5em;
+    margin: 0 .5vw;
 }
 
 .header-container .nav-menu li{
     display: inline-block;
     list-style: none;
-    margin: 0 .5em;
+    margin: 0 .5vw;
 }
 
 .header-container .nav-menu a{
@@ -99,7 +99,6 @@ html{
     vertical-align: middle;
 }
 
-
 /* header right section */
 .right-section{
     float: right;
@@ -110,7 +109,6 @@ html{
 .btn-header{
     display: inline;
 }
-
 
 /* MAIN */
 
@@ -400,124 +398,79 @@ font-weight: 550;
 
 /* affilliations */
 .affiliations-content{
-    width: 100%;
-    height: 1000px;
-    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
 }
-
-
-
-
-
 
 
 /* affiliations common */
 .square{
-    width: 100px;
-    height: 100px;
+    width: 30vw;
+    height: 30vw;
 }
 
+.square-small{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    position: relative;
+}
 
-
-
-
-
-
-
+.square-small img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2.5vw;
+    filter: invert(100%);
+}
 
 /* big left square */
 .left-sq{
-    background-color: blueviolet;
     float: left;
+}
+
+/* big right square */
+.right-sq{
+  float: right;
+}
+
+.sq-8 img{
+    padding: 0vw; 
 }
 
 /* center affiliations text */
 .affiliations-block{
+    width: calc(100% - 60vw);
     float: left;
-    width: 50%;
-    background-color: red;
+    height: 30vw;
+    overflow: auto;
 }
 
 .affiliation-txt{
     box-sizing: content-box;
-    padding: 2.5em;
+    padding-top: 4vw;
     font-weight: 550;
-    overflow: auto;
-    /* TEST */
-    height: 50px;
 }
 
 .affiliation-logo{
     width: 25%;
     height: auto;
-    padding-bottom: 2em;
+    padding-bottom: 1.5vw;
 }
 
 .logo-rule{
     width: 3.5em;
-    padding-bottom: 3em;
+    padding-bottom: 3vw;
 }
 
-.affiliation-content,
-.affiliation-relator{
-    margin-bottom: 3em;
+.affiliation-content{
+    padding-bottom: 3vw;
 }
 
 
-/* big right square */
-.right-sq{
-  background-color: bisque;
-  float: right;
 
-}
 
-/* small square */
-/* small square left */
-.square-small::after{  
-    float: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-origin: content-box;
-    padding: 2.5em;
-    
-}
-
-.sq-1{
-    /* background-image: url(../img/designit.svg); */
-    background-color: aliceblue;
-    max-height: 100%;
-}
-
-.sq-2{
-    background-image: url(../img/arizona_state_university.svg);
-    background-color: bisque;
-}
-
-.sq-3{
-    background-image: url(../img/university_of_florida.svg);
-}
-
-.sq-4{
-    background-image: url(../img/topps.svg);
-}
-
-/* small square right */
-.sq-5{
-    background-image: url(../img/world_bicycle_relief.svg);
-} 
-
-.sq-6{
-    background-image: url(../img/hearst_corp.svg);
-}
-
-.sq-7{
-    background-image: url(../img/lonely_planet.svg);
-}
-
-.sq-8{
-    background-image: url(../img/clear_channel.svg);
-} 
 
 /* cta */
 .cta{
@@ -525,6 +478,7 @@ font-weight: 550;
     padding: 10em;
     margin-bottom: 10em;
 }
+
 .cta-section{
     position: relative;
 }
