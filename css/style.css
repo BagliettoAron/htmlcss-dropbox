@@ -515,7 +515,6 @@ font-weight: 550;
     position: relative;
     padding: 2em 0;
     border-top: 1px solid lightgray;
-    
 }
 
 .drop-d-icon i{
@@ -532,7 +531,56 @@ font-weight: 550;
 
 /* footer */
 .footer{
+    position: relative;
     width: 100%;
+    background-color: black;
+    padding-left: 5vw;
+    padding-right: 8vw;
+
 }
+
+.ft-column{
+    float: left;
+    width: calc(100% / 5 );
+    background-color: #498EFF;
+    padding: 3em;
+    color: white;
+    min-height: 100%;
+    margin-bottom: 10em;
+}
+
+.ft-column h4{
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+}
+
+.ft-column ul{
+    line-height: 2.5em;
+    list-style: none;
+}
+
+.language-selector i,
+.language-selector span{
+    color: gray;
+}
+
+.language-selector{
+    border-top: 1px solid white;
+    width: 8em;
+}
+
+.language-selector>i{
+    padding-top: 3em;
+}
+
+.language-selector{
+    position: absolute;
+    bottom: 0;
+    left: 5vw;
+    color: white;
+    margin-bottom: 4em;
+    padding-top: 1em;
+}
+
 
 
