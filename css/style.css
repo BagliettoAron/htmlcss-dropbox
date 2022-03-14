@@ -551,6 +551,7 @@ font-weight: 550;
     text-align: center;
     background-color: white;
     color: black;
+    display: inline-block;
 }
 
 /* F.A.Q. & FOOTER */
