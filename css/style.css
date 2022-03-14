@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 img{
@@ -56,6 +61,10 @@ html{
     display: inline-block;
 }
 
+.button-blue:hover{
+    background-color:#0062ff85 ;
+}
+
 /* HEADER */
 /* header common */
 
@@ -76,6 +85,13 @@ html{
     display: inline-block;
     list-style: none;
     margin: 0 .5vw;
+}
+
+/* menu li hover properties */
+.nav-menu li:hover{
+    margin-bottom: -3px;
+    border-bottom: 3px solid green;
+    position: relative;
 }
 
 .header-container .nav-menu a{
@@ -165,6 +181,7 @@ main .title{
 
 /* title & radio*/
 .dropbox-plan-title{
+    padding-top: 80px;
     line-height:2em ;
     width: 100%;
     font-size: 1.5em;
@@ -342,6 +359,7 @@ font-size: .9em;
     margin: 0 auto;
     display: inline-block;
     border: 1px solid black;
+    color: black;
 }
 
 /* Dropbox Business title */
@@ -428,6 +446,7 @@ font-weight: 550;
 /* small left square */
 .sq-1{
     background-color: #A2D39B;
+    border: 10px solid rgba(255, 255, 255, 0.267);
 }
 
 .sq-2{
