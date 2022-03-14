@@ -90,7 +90,7 @@ html{
 /* menu li hover properties */
 .nav-menu>ul>li:hover{
     margin-bottom: -3px;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid black;
     position: relative;
 }
 
@@ -126,6 +126,7 @@ html{
 }
 
 .retractable-menu{
+    top: 83px;
     line-height: 48px;
     position: absolute;
     width: 10vw;
@@ -137,7 +138,6 @@ html{
 .retractable-menu li a:hover{
     background-color: lightgray;
 }
-
 
 /* MAIN */
 
@@ -601,6 +601,21 @@ font-weight: 550;
 .last-faq{
     border-bottom: 1px solid lightgray;
 }
+
+.faq-items:hover .faq-sub-content{
+    display: inline-block;
+}
+
+.faq-sub-menu{
+    font-weight: 650;
+}
+
+.faq-sub-content{
+    width: 85%;
+    margin-top: 2em;
+    display: none;
+}
+
 
 
 
