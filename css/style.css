@@ -402,7 +402,6 @@ font-weight: 550;
     margin: 0 auto;
 }
 
-
 /* affiliations common */
 .square{
     width: 30vw;
@@ -468,39 +467,33 @@ font-weight: 550;
     padding-bottom: 3vw;
 }
 
-
-
-
-
 /* cta */
 .cta{
-    width: 100%;
-    padding: 10em;
-    margin-bottom: 10em;
+    background-color: #498EFF;
+    padding-right: 2em;
+    padding-top: 8em;
+    padding-bottom: 8em;
 }
-
-.cta-section{
-    position: relative;
-}
-
-
 
 /* text-cta */
-.cta-txt{
+.cta-txt-box{
+    float: left;
+    width: 80%;
     padding-right: 10em;
     font-size: 2em;
     color: #630C2F;
+}
+
+.cta-button-box{
     float: left;
+    width: 20%;
+    margin-top: 1.5em;
 }
 
 /* button cta */
 .button-cta{
-    position: absolute;
-    top: 1em;
-    right: 0;
     padding: .4em 1.2em;
     text-align: center;
-    margin: 0 auto;
     background-color: white;
     color: black;
 
@@ -513,7 +506,7 @@ font-weight: 550;
     width: 100%;
     /* TEST */
     height: 600px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 /* footer */
